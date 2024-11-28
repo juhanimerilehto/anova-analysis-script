@@ -7,7 +7,7 @@
 
 ## Overview
 
-ANOVA (Analysis of Variance) module, part of the Statistical Analysis Suite. This Python-based tool enables automated one-way ANOVA analysis for comparing means across multiple groups. Developed for the Strategic Exercise Information and Research unit in Likes Institute, at JAMK University of Applied Sciences, this module provides comprehensive statistical output including post-hoc analysis, visualizations, Excel reports, and terminal feedback.
+ANOVA (Analysis of Variance) script. This Python-based tool enables automated one-way ANOVA analysis for comparing means across multiple groups. Developed for the Strategic Exercise Information and Research unit in Likes Institute, at JAMK University of Applied Sciences, this module provides comprehensive statistical output including post-hoc analysis, visualizations, Excel reports, and terminal feedback.
 
 ## Features
 
@@ -30,8 +30,8 @@ ANOVA (Analysis of Variance) module, part of the Statistical Analysis Suite. Thi
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/juhanimerilehto/statistical-analysis-suite.git
-cd statistical-analysis-suite/anova
+git clone https://github.com/juhanimerilehto/anova-analysis-script.git
+cd anova-analysis-script
 ```
 
 ### 2. Create a virtual environment:
@@ -49,12 +49,12 @@ pip install -r requirements.txt
 
 Basic usage:
 ```bash
-python anova_analysis.py
+python anova.py
 ```
 
 With custom parameters:
 ```bash
-python anova_analysis.py --excel_path "your_data.xlsx" --group_column "Group" --value_column "Value"
+python anova.py --excel_path "your_data.xlsx" --group_column "Group" --value_column "Value"
 ```
 
 ## Configuration Parameters
