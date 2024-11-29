@@ -1,4 +1,4 @@
-# Statistical Analysis Suite - ANOVA Module
+# ANOVA Analysis script
 
 **Version 1.0**
 ### Creator: Juhani Merilehto - @juhanimerilehto - Jyväskylä University of Applied Sciences (JAMK), Likes institute
